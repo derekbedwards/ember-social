@@ -37,7 +37,7 @@ export default Ember.Object.extend({
           FB.init({
             appId      : self.appId(),
             xfbml      : true,
-            version    : 'v2.1'
+            version    : 'v2.6'
           });
           Ember.run(function(){
             resolve(FB);
